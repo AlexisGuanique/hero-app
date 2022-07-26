@@ -1,0 +1,64 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en el <SearchScreen /> Debe de mostrar correctamente el componente con los valores por defecto 1`] = `
+<div>
+  <div
+    class="p-5"
+  >
+    <h1>
+      Search
+    </h1>
+    <hr />
+    <div
+      class="row"
+    >
+      <div
+        class="col-5"
+      >
+        <h4>
+          Searching
+        </h4>
+        <hr />
+        <form
+          aria-label="form"
+        >
+          <input
+            autocomplete="off"
+            class="form-control"
+            name="searchText"
+            placeholder="Busca tu heroe"
+            type="text"
+            value=""
+          />
+          <button
+            class="btn btn-outline-primary mt-1"
+          >
+            Buscar
+          </button>
+        </form>
+      </div>
+      <div
+        class="col-7"
+      >
+        <h4>
+          Resultados
+        </h4>
+        <hr />
+        <div
+          class="alert alert-primary animate__animated animate__bounce"
+        >
+          Busqueda de heroe
+        </div>
+        <div
+          aria-label="alert-danger"
+          class="alert alert-danger animate__animated animate__flash"
+          style="display: none;"
+        >
+          No se encontro un heroe con la descripcion 
+          <b />
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
